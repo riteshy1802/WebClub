@@ -709,7 +709,7 @@ h1 {
 
 
 /* Media Query 1*/
-@media screen and (min-device-width: 1000px) and (max-device-width: 1200px)
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1200px)
 {
   
  
@@ -1529,7 +1529,7 @@ h1 {
 
 
 /* Media Query 3 */
-@media screen and (max-width:800px)
+@media only screen and (max-width:800px)
   {
   header {
     width: 100%;
@@ -2200,7 +2200,7 @@ h1 {
     top: 0;
   }
   }
-@media screen and (max-width:975px){
+@media only screen and (max-width:975px){
   .img1{
     margin-left: 8vw;
   }
